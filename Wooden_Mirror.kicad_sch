@@ -3779,36 +3779,12 @@
 		(uuid "24ad5505-71e1-470d-a132-15e28495c04b")
 	)
 	(no_connect
-		(at 40.64 99.06)
-		(uuid "4f057f6f-d50d-4606-b6a5-3a222283ca64")
-	)
-	(no_connect
-		(at 246.38 101.6)
-		(uuid "52dc494c-07c5-44a1-a556-1c5e256a85e3")
-	)
-	(no_connect
 		(at 106.68 100.33)
 		(uuid "54da01b0-b914-4ea3-bf76-1c9a62dfb9e7")
 	)
 	(no_connect
-		(at 40.64 96.52)
-		(uuid "5622109f-c7b1-42d4-aad6-628654a19f08")
-	)
-	(no_connect
-		(at 182.88 90.17)
-		(uuid "5e3f9bc7-33df-4bc4-8bfa-5851fafef04d")
-	)
-	(no_connect
-		(at 246.38 99.06)
-		(uuid "717650e4-416d-4880-b981-794f8e787773")
-	)
-	(no_connect
 		(at 106.68 85.09)
 		(uuid "7a685760-eaa9-48af-9a4d-b3ebc4279211")
-	)
-	(no_connect
-		(at 106.68 92.71)
-		(uuid "9390ad1b-d971-444d-bb5d-397c302f4ef0")
 	)
 	(no_connect
 		(at 106.68 90.17)
@@ -3826,13 +3802,15 @@
 		(at 106.68 87.63)
 		(uuid "bd4bed1e-4b88-45ee-b0fe-bb128c7ffa91")
 	)
-	(no_connect
-		(at 182.88 92.71)
-		(uuid "dd5ead6a-6aec-48c4-be47-31c1c7d04442")
-	)
-	(no_connect
-		(at 106.68 95.25)
-		(uuid "fa75d445-b57e-40da-b7e1-459cdf6c86a0")
+	(wire
+		(pts
+			(xy 101.6 95.25) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "005e94bb-8e6a-4f32-b423-46c2b4b955aa")
 	)
 	(wire
 		(pts
@@ -3966,6 +3944,26 @@
 	)
 	(wire
 		(pts
+			(xy 40.64 96.52) (xy 36.83 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d8a4d8-05d2-4b6f-92ed-63e1b068ae6e")
+	)
+	(wire
+		(pts
+			(xy 36.83 106.68) (xy 100.33 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13e3a499-6673-468e-87eb-87fe6990c0bc")
+	)
+	(wire
+		(pts
 			(xy 83.82 44.45) (xy 83.82 45.72)
 		)
 		(stroke
@@ -4013,6 +4011,16 @@
 			(type default)
 		)
 		(uuid "1c8a5f7f-2d54-4b98-801b-2d591f411713")
+	)
+	(wire
+		(pts
+			(xy 100.33 106.68) (xy 100.33 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d172848-2b75-4d70-a233-4d0b1e0cda70")
 	)
 	(wire
 		(pts
@@ -4126,6 +4134,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 101.6) (xy 246.38 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c371464-bfef-490f-9156-655e0d4153b1")
+	)
+	(wire
+		(pts
 			(xy 259.08 86.36) (xy 261.62 86.36)
 		)
 		(stroke
@@ -4143,6 +4161,16 @@
 			(type default)
 		)
 		(uuid "2ff0823c-fcc9-40d8-8dcd-ab757775d772")
+	)
+	(wire
+		(pts
+			(xy 101.6 105.41) (xy 101.6 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "312f2f20-0f4f-47e1-9b19-b4cdaf753186")
 	)
 	(wire
 		(pts
@@ -4666,6 +4694,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 96.52) (xy 36.83 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bdfa92f-f86c-402b-89a7-414665471c4c")
+	)
+	(wire
+		(pts
 			(xy 114.3 35.56) (xy 143.51 35.56)
 		)
 		(stroke
@@ -4716,6 +4754,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 99.06) (xy 38.1 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "855baa12-5994-4e79-aa9e-9f8463270609")
+	)
+	(wire
+		(pts
 			(xy 243.84 96.52) (xy 243.84 93.98)
 		)
 		(stroke
@@ -4753,6 +4801,16 @@
 			(type default)
 		)
 		(uuid "8bdcc05b-ccf2-4749-ad15-560ecb088a59")
+	)
+	(wire
+		(pts
+			(xy 38.1 105.41) (xy 101.6 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c0984d8-cd08-44a2-99a6-7c1a7defbdcb")
 	)
 	(wire
 		(pts
@@ -4846,6 +4904,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 90.17) (xy 241.3 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c258e03-737b-4dad-8ffe-0ae4db38e3f0")
+	)
+	(wire
+		(pts
 			(xy 259.08 81.28) (xy 261.62 81.28)
 		)
 		(stroke
@@ -4896,6 +4964,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 92.71) (xy 238.76 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a260e4ef-48de-4a21-806e-043fbc2c8786")
+	)
+	(wire
+		(pts
 			(xy 146.05 109.22) (xy 146.05 111.76)
 		)
 		(stroke
@@ -4923,6 +5001,16 @@
 			(type default)
 		)
 		(uuid "ae3a0d4d-cda0-450a-8b8c-ada18c273e97")
+	)
+	(wire
+		(pts
+			(xy 241.3 99.06) (xy 246.38 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9d5685-8717-4b08-af3d-8b7590c98745")
 	)
 	(wire
 		(pts
@@ -5106,6 +5194,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 92.71) (xy 106.68 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbe95a83-d1a4-4b25-a12d-317b622b24a6")
+	)
+	(wire
+		(pts
 			(xy 30.48 35.56) (xy 45.72 35.56)
 		)
 		(stroke
@@ -5133,6 +5231,16 @@
 			(type default)
 		)
 		(uuid "cfe082f9-5bfe-484a-b075-28a8fcbe5e72")
+	)
+	(wire
+		(pts
+			(xy 241.3 90.17) (xy 241.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d06ca48a-98ea-4cc0-a91b-b7c0f3c24b76")
 	)
 	(wire
 		(pts
@@ -5276,6 +5384,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 92.71) (xy 238.76 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb0b8e8b-241c-449a-a356-3c233cd58a03")
+	)
+	(wire
+		(pts
 			(xy 58.42 35.56) (xy 68.58 35.56)
 		)
 		(stroke
@@ -5343,6 +5461,16 @@
 			(type default)
 		)
 		(uuid "f81a1914-0818-4459-aefb-e58555e1aed5")
+	)
+	(wire
+		(pts
+			(xy 40.64 99.06) (xy 38.1 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8da40b2-3d82-48df-81a4-97d7dfff5c4e")
 	)
 	(wire
 		(pts
@@ -5594,8 +5722,8 @@
 	)
 	(text_box "P1.7 is used to drive the WS2812B LED module.  The module uses ns timing that needs the SIMO hardware to be able to have proper timing\n"
 		(exclude_from_sim no)
-		(at 200.66 99.695 0)
-		(size 24.13 17.145)
+		(at 198.755 106.68 0)
+		(size 33.02 12.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -5713,8 +5841,8 @@
 	)
 	(text_box "P1.6 is used as an alternate timer TA01 pin for the RC PWM output"
 		(exclude_from_sim no)
-		(at 200.66 86.995 0)
-		(size 23.495 11.43)
+		(at 198.755 97.155 0)
+		(size 33.02 7.62)
 		(stroke
 			(width 0)
 			(type default)
@@ -8255,10 +8383,9 @@
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a78b7dde-56f2-4a49-b97e-01408b2e0b8a")
 		(property "Reference" "H1"
-			(at 29.21 146.0499 0)
+			(at 29.21 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
